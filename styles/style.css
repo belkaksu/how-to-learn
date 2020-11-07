@@ -180,14 +180,11 @@
 
 .table__cell {
   width: 250px;
-  /* vertical-align: baseline; */
-
-}
+ }
 
 .table__heading {
   line-height: 1.15;
   font-weight: bold;
-
   text-align: left;
 }
 
@@ -198,11 +195,12 @@
 .table__text {
   font-size: 18px;
   line-height: 1.2;
-  margin-top: 20px;
-
 }
 
-/*
+.table__text_margin_top {
+  margin-top: 20px;
+}
+
 .feynman {
   display: flex;
   flex-direction: column;
@@ -246,6 +244,7 @@
   text-decoration: underline;
 }
 
+/*
 .kaufman {
   display: flex;
   flex-direction: column;
