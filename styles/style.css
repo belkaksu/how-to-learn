@@ -151,13 +151,12 @@
   padding: 0;
 }
 
-
-.table_cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
 
-.table_heading {
+.table__heading {
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
@@ -165,7 +164,7 @@
   margin: 0;
 }
 
-.table_text {
+.table__text {
   font-size: 18px;
   line-height: 1.2;
   margin: 20px 0 0;
@@ -216,7 +215,6 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  color: white;
   padding: 90px 0;
   display: flex;
   flex-direction: column;
@@ -226,22 +224,30 @@
   z-index: 1;
 }
 
-.kaufman__table_cell_theme_dark {
-  width: 200px;
+.section-title__theme_dark {
+  color: white;
 }
 
-.kaufman__table_heading_theme_dark {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;
-  text-align: left;
+.section-subtitle__theme_dark {
+  color: white;
+}
+
+.table__theme_dark {
+  color: white;
+}
+
+.table__cell_theme_dark {
+  color: white;
+  width: 200px;
   margin-top: 80px;
 }
 
-.kaufman__table_text_theme_dark {
-  font-size: 18px;
-  line-height: 1.2;
-  margin-top: 20px;
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
 }
 
 .kaufman__triangle {
@@ -270,11 +276,17 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
-  flex-basis: 711px;
   flex-direction: column;
+
+
+}
+.footer__column_content_copyright {
+
+  flex-basis: 711px;
   justify-content: space-between;
+
 }
 
 .logo_place_footer {
@@ -287,20 +299,18 @@
   line-height: 25px;
   margin: 18px 0;
 }
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
 
 .footer__column-heading {
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-weight: bold;
 }
 
 .footer__column-links {
   list-style-type: none;
+  margin: 0 0 16px;
+  padding: 0;
 }
 
 .footer__column-link {
@@ -312,11 +322,6 @@
 
 .footer__column-link:hover {
   text-decoration: underline;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__social-icon {
