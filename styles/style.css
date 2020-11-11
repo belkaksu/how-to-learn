@@ -35,10 +35,9 @@
   width: 730px;
   display: flex;
   align-items: center;
-  margin: 0 0 0 64px ;
+  margin: 0 0 0 64px;
   font-size: 102px;
   line-height: 96px;
-
 }
 
 .header__subtitle {
@@ -277,14 +276,10 @@
 .footer__column {
   display: flex;
   flex-direction: column;
-
-
 }
 .footer__column_content_copyright {
-
   flex-basis: 711px;
   justify-content: space-between;
-
 }
 
 .logo_place_footer {
