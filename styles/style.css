@@ -35,10 +35,10 @@
   width: 730px;
   display: flex;
   align-items: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px ;
   font-size: 102px;
   line-height: 96px;
-  font-weight: bold;
+
 }
 
 .header__subtitle {
@@ -128,7 +128,6 @@
   text-align: center;
   font-size: 60px;
   line-height: 1.15;
-  font-weight: bold;
   margin: 0 auto 20px;
 }
 
@@ -186,7 +185,6 @@
   width: 648px;
   font-size: 120px;
   line-height: 1.15;
-  font-weight: bold;
   text-align: center;
   margin: 100px auto 0;
 }
