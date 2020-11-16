@@ -8,17 +8,14 @@
 }
 
 .cards {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  column-gap: 100px;
+  margin: 0;
   width: 920px;
-  flex-wrap: wrap;
-  margin: 0 auto;
   list-style-type: none;
   padding: 0;
-}
 
-.cards__item {
-  width: 240px;
 }
 
 .cards__image {
