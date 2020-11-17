@@ -1,75 +1,20 @@
-.khan {
 
-  background-color: #f2f2f2;
-    padding-top: 105px;
-}
 
-.khan__container {
-  width: 80%;
-  margin: 0 auto;
-}
 
-.khan__author {
-  font-size: 30px;
-  line-height: 42px;
-  margin: 0;
 
-}
 
-.khan__title {
-  font-size: 60px;
-  line-height: 1.15;
 
-}
 
-.khan__quote {
-  width: 790px;
-  margin: 50px 0 36px;
-  font-size: 24px;
-  line-height: 34px;
 
-}
 
-.khan__quote-author {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 1.15;
-}
 
-.khan__quote-author-subline {
-  font-size: 24px;
-  line-height: 1.15;
-  margin: 0;
-}
 
-.khan__book-container {
-  display: flex;
-  margin-top: 68px;
-  align-items: flex-start;
 
-}
 
-.khan__book-pic {
-  width: 620px;
-  height: 608px;
-  background-image: url(../images/khan-book.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-.khan__buy-link {
-  font-size: 30px;
-  line-height: 42px;
-  color: #2f80ed;
-  text-decoration: none;
-  margin-left: 48px;
-}
 
-.khan__buy-link:hover {
-  text-decoration: underline;
-  opacity: .6;
-}
+
+
 
 
 
