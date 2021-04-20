@@ -1,3 +1,5 @@
+Ссылка: https://belkaksu.github.io/how-to-learn/index.html
+
 1. Заголовок
 
 Научиться учиться
